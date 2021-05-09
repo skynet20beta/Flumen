@@ -1,5 +1,4 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <Nullable>enable</Nullable>
@@ -8,10 +7,12 @@
     <Authors>tiger-empire</Authors>
     <PackageProjectUrl>https://github.com/tiger-empire/Flumen</PackageProjectUrl>
     <Description>This is a library for fluent work with BCL types like strings or TimeSpans. It contains static methods of System.String, parsing methods (such as int.Parse, bool.Parse etc) and TimeSpan.Fromxxx methods exposed as extensions methods.</Description>
-    <Copyright>MIT</Copyright>
+    <Copyright></Copyright>
     <RepositoryUrl>https://github.com/tiger-empire/Flumen</RepositoryUrl>
     <PackageTags>fluent,bcl,string,timespan</PackageTags>
     <PackageReleaseNotes>Initial version that contains static methods of System.String, parsing methods (such as int.Parse, bool.Parse etc) and TimeSpan.Fromxxx methods exposed as extensions methods.</PackageReleaseNotes>
   </PropertyGroup>
-
+  <PropertyGroup>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
 </Project>
