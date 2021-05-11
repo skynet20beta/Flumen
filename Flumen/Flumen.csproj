@@ -9,8 +9,8 @@
     <Description>This is a library for fluent work with BCL types like strings or TimeSpans. It contains static methods of System.String, parsing methods (such as int.Parse, bool.Parse etc) and TimeSpan.Fromxxx methods exposed as extensions methods.</Description>
     <Copyright></Copyright>
     <RepositoryUrl>https://github.com/tiger-empire/Flumen</RepositoryUrl>
-    <PackageTags>fluent,bcl,string,timespan</PackageTags>
-    <PackageReleaseNotes>Initial version that contains static methods of System.String, parsing methods (such as int.Parse, bool.Parse etc) and TimeSpan.Fromxxx methods exposed as extensions methods.</PackageReleaseNotes>
+    <PackageTags>fluent,bcl,string,timespan,extensions</PackageTags>
+    <PackageReleaseNotes>TimeSpan - overloads for int parameter added</PackageReleaseNotes>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
