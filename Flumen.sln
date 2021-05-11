@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flumen", "Flumen\Flumen.csproj", "{07028919-2935-472B-A7D9-B453D3CA561F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flumen.Console.NetStandard21", "Flumen.Console.NetStandard21\Flumen.Console.NetStandard21.csproj", "{06CBA2CF-F673-4C29-8F57-0471C41FDD98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flumen.Console.Net50", "Flumen.Console.Net50\Flumen.Console.Net50.csproj", "{B734F0E6-8B08-40B7-ACCD-DEC7227F5789}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{07028919-2935-472B-A7D9-B453D3CA561F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07028919-2935-472B-A7D9-B453D3CA561F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07028919-2935-472B-A7D9-B453D3CA561F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06CBA2CF-F673-4C29-8F57-0471C41FDD98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06CBA2CF-F673-4C29-8F57-0471C41FDD98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06CBA2CF-F673-4C29-8F57-0471C41FDD98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06CBA2CF-F673-4C29-8F57-0471C41FDD98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B734F0E6-8B08-40B7-ACCD-DEC7227F5789}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B734F0E6-8B08-40B7-ACCD-DEC7227F5789}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B734F0E6-8B08-40B7-ACCD-DEC7227F5789}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B734F0E6-8B08-40B7-ACCD-DEC7227F5789}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

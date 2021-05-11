@@ -161,6 +161,7 @@ namespace Flumen
         public static DateTimeOffset ToDateTimeOffset(this string @string) => 
             DateTimeOffset.Parse(@string);
 
+        #if NETSTANDARD2_1 || NETCORE
         /// <summary>
         /// Wraps <see cref="Enum.Parse&lt;TEnum&gt;(string)"/> for using as extension. 
         /// </summary>
@@ -169,5 +170,6 @@ namespace Flumen
         public static TEnum To<TEnum>(this string @string)
             where TEnum : struct, Enum =>
             Enum.Parse<TEnum>(@string);
+        #endif
     }
 }
