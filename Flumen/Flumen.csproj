@@ -3,17 +3,19 @@
     <TargetFrameworks>netstandard2.1;net5.0</TargetFrameworks>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>0.0.2</Version>
+    <Version>0.0.3</Version>
     <Authors>tiger-empire</Authors>
     <PackageProjectUrl>https://github.com/tiger-empire/Flumen</PackageProjectUrl>
-    <Description>This is a library for fluent work with BCL types like strings or TimeSpans. It contains static methods of System.String, parsing methods (such as int.Parse, bool.Parse etc) and TimeSpan.Fromxxx methods exposed as extensions methods.</Description>
+    <Description>This is a library for fluent work with BCL types like strings or TimeSpans. It contains static methods of System.String, System.Double, System.Math and parsing methods (such as int.Parse, bool.Parse etc) and TimeSpan.Fromxxx methods exposed as extensions methods. Also some new methods added like Weeks for TimeSpans and CTan for cotangent</Description>
     <Copyright></Copyright>
     <RepositoryUrl>https://github.com/tiger-empire/Flumen</RepositoryUrl>
-    <PackageTags>fluent,bcl,string,timespan,extensions</PackageTags>
-    <PackageReleaseNotes>TimeSpan - overloads for int parameter added</PackageReleaseNotes>
+    <PackageTags>fluent,bcl,string,timespan,extensions,double,math,cotangent,arccotangent</PackageTags>
+    <PackageReleaseNotes>1. Methods from System.Math + cotangent/arccotangent wrapped into extensions 2. Methods from System.Double  wrapped into extensions and IsPositive method added.</PackageReleaseNotes>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <AssemblyVersion>0.0.3.0</AssemblyVersion>
+    <FileVersion>0.0.3.0</FileVersion>
   </PropertyGroup>
 </Project>
